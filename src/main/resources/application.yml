@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  #Postgres Database
+  datasource:
+    url: jdbc:postgresql://localhost:15432/processo
+    username: alex
+    password: alex
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+
+file:
+  upload-dir: uploads

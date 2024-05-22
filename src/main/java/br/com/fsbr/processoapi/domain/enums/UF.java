@@ -1,0 +1,31 @@
+package br.com.fsbr.processoapi.domain.enums;
+
+public enum UF {
+    AC,
+    AL,
+    AP,
+    AM,
+    BA,
+    CE,
+    DF,
+    ES,
+    GO,
+    MA,
+    MS,
+    MT,
+    MG,
+    PA,
+    PB,
+    PR,
+    PE,
+    PI,
+    RJ,
+    RN,
+    RS,
+    RO,
+    RR,
+    SC,
+    SP,
+    SE,
+    TO
+}
